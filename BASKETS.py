@@ -182,8 +182,7 @@ dA=pd.DataFrame(data1).set_index('')
 print(dA)
 
 
-def abc():
-    import OPTION
+
 
 roote=Tk()
 roote.geometry("1300x680")
@@ -204,7 +203,7 @@ def xyz():
      label=Label(roote,text="DATA HAS BEEN RECORDED.CLOSE THE WINDOW!!")
      label.grid(row=200,column=1)
      roote.destroy()
-     abc()
+     next()
      dd.commit()
 
 
