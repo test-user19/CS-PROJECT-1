@@ -180,8 +180,7 @@ data2={"":["AIR BREZZE","WHITE BUTTER","LILAC FROST","SKIMMED CREAM","CREAM CARE
 dB=pd.DataFrame(data2).set_index('')
 print(dB)
 
-def abc():
-    import OPTION
+
 
 roote=Tk()
 roote.geometry("600x700")
@@ -216,7 +215,7 @@ def xyz():
     label=Label(roote,text="DATA HAS BEEN RECORDED.CLOSE THE WINDOW!!")
     label.grid(row=200,column=1)
     roote.destroy()
-    abc()
+    next()
     dd.commit()
 
 

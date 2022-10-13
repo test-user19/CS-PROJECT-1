@@ -172,7 +172,6 @@ def next():
 
 
 
-
 print()
 print()
 print('         BRUSH HOLDER')
